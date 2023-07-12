@@ -1,5 +1,0 @@
-1) Install Nodejs v18
-2)npm i - To install all modules
-3)node server.js To start Backend Server 
-4)npm start -To start react Server
-5)If browser does not open automatically ,start the browser and enter http://localhost:3001/
