@@ -13,10 +13,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-const MongoDB_USERID = "harshg101999";
-const MONGODB_PASSWORD = `harshg101999`;
-const MONGODBURI = `mongodb+srv://${MongoDB_USERID}:${MONGODB_PASSWORD}@cluster0.e8dbp40.mongodb.net/Menu_Items?retryWrites=true&w=majority`;
-
+const MongoDB_USERID = "divyanshu";
+const MONGODB_PASSWORD = `hello`;
+const MONGODBURI = `mongodb+srv://${MongoDB_USERID}:${MONGODB_PASSWORD}@cluster0.mttxpun.mongodb.net/Food?retryWrites=true&w=majority`;
 mongoose.connect(MONGODBURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,

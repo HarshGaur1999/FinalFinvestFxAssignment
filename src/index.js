@@ -1,11 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import Table from "./App";
 import { jsonData } from "./data";
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <Table data={jsonData} />
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
